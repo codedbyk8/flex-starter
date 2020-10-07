@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #FAF4F0;
   height: 100%;
   width: 100%;
 }
@@ -111,28 +111,27 @@ body {
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  background-color: #D9A491;
+  height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 3em;
+  color: #BF1F1F;
 
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
+  background-color: #D9A491;
   width: 100%;
+  padding-bottom: 10%;
   display: flex;
   justify-content: center;
-  align-items: center;
-
-}
-
-header,
-footer,
-main {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
 
 }
 
@@ -141,7 +140,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  justify-content:space-between;
+  justify-content:space-between
+  max-width: 1200px;
 
 
 }
@@ -149,14 +149,26 @@ main {
 .flex-items {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #D9A491;
   width: 30%;
-  height: 200px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  flex-grow: 2;
+  font-size: 1em;
+  padding: 10px;
 
+}
+
+.flex-items p {
+  font-size: 1em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fff;
 }
 
 /* ==========================================================================
